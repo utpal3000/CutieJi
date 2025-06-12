@@ -163,6 +163,6 @@ const tailwindConfig = `
 
 // Inject Tailwind config directly into the document head
 document.head.insertAdjacentHTML('beforeend', tailwindConfig);
-document.title = "CuteJi";
+document.title = "CutieJi";
 
 export default App;
