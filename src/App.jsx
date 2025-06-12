@@ -57,7 +57,7 @@ const App = () => {
       {/* Main container for the app content */}
       <div className="bg-white/90 p-8 sm:p-12 md:p-16 rounded-3xl shadow-xl text-center backdrop-blur-sm animate-fade-in max-w-sm sm:max-w-md lg:max-w-lg w-full transform transition-transform duration-300 hover:scale-105">
         <h1 className="text-3xl sm:text-4xl font-semibold mb-6 text-purple-700 drop-shadow-sm">
-          Cute Emoji for a CutieJi
+          Emoji for a CutieJi
         </h1>
 
         {/* Button to show emoji */}
