@@ -47,6 +47,7 @@ const App = () => {
 
   return (
     // HTML structure with Tailwind CSS classes for styling
+    
     <div className={`min-h-screen flex items-center justify-center bg-gradient-to-br ${currentBackground} font-inter p-4 relative overflow-hidden transition-all duration-700 ease-in-out`}>
       {/* Background circles for aesthetic effect */}
       <div className="absolute top-[-50px] left-[-50px] w-48 h-48 bg-white/30 rounded-full blur-3xl animate-blob1"></div>
@@ -161,5 +162,6 @@ const tailwindConfig = `
 
 // Inject Tailwind config directly into the document head
 document.head.insertAdjacentHTML('beforeend', tailwindConfig);
+document.title = "CuteJi";
 
 export default App;
